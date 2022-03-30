@@ -1,0 +1,56 @@
+.Container_home{
+
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    
+
+}
+
+
+.Input_boolean {
+ 
+    flex-direction: column;
+    width: 423px;
+    height: 30px;
+    background-color: burlywood;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 
+    rgba(0,0,0,0.2), 0 6px 20px 0 
+    rgba(0,0,0,0.19);
+    border: none;
+    padding: 0 10px;
+    
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+
+.Botao{
+
+    justify-content: center;
+    align-items: center;
+    width: 442px;
+    height: 30px;
+    background-color: gray; /* Green */
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0 3px 10px 0 
+    rgba(0,0,0,0.2), 0 6px 20px 0 
+    rgba(0,0,0,0.19);
+    padding: 0 10px;
+    
+}
